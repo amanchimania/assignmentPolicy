@@ -1,0 +1,11 @@
+.main_todo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+@media screen and (max-width: 1000px) {
+  .main_todo {
+    display: grid;
+    grid-template-rows: 1 1 1;
+  }
+}

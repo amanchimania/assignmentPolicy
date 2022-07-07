@@ -1,0 +1,33 @@
+.container{
+    border: 1px solid black;
+    height: 400px;
+    width: 450px;
+    min-width: 100px;
+    min-height: 400px;
+    overflow: auto;
+    overflow-y: scroll;
+    padding-right: 10px;
+    word-wrap:normal;
+}
+h2{
+    text-align: center;
+  color:#222; font-size:30px; font-weight:400;
+  text-transform: uppercase;
+  word-spacing: 1px; letter-spacing:2px; color:#c50000;
+}
+.value-container{
+    display: flex;
+    justify-content:space-evenly
+}
+#title-container{
+    padding-top: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+}
+#title-container-date{
+    padding-top: 15px;
+    font-size: small;
+}
+/* .MuiSvgIcon-root{
+    padding-top: 10px;
+} */
